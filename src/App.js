@@ -129,7 +129,7 @@ function App() {
                   <button
                     className="button is-link is-medium"
                     onClick={getOCTHandler}
-                    disabled={walletAddress ? false : true}
+                    // disabled={walletAddress ? false : true}
                   >
                     GET Crown
                   </button>
